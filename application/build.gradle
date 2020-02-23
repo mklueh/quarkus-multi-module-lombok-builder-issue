@@ -1,0 +1,9 @@
+plugins {
+    id 'io.quarkus'
+}
+
+dependencies {
+    implementation project(":common")
+    implementation "io.quarkus:quarkus-scheduler"
+
+}
